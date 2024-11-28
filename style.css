@@ -1,0 +1,90 @@
+body{
+font-family: Arial, Helvetica, sans-serif;
+text-align: center;
+
+}
+
+#home{
+    display: flex;
+    justify-content: center;
+}
+
+.vehicle {
+   
+    font-size: 16px;
+    color: #b2b2b2;
+    place-self: center;
+    width: 500px;
+    max-height: auto;
+}
+
+.card-content{
+    display: flex;
+
+}
+
+.card-content p{
+    display: inline;
+}
+
+.card{
+    display: grid;
+    border-radius: 4px;
+    padding-top: 0px;
+    padding-bottom: 20px;
+    padding-right: 30px;
+    padding-left: 10px;
+    margin: 3%;
+    background-color: #111;
+} 
+
+.text{
+    display: block;
+    text-align: left;
+    margin-left: 2%;
+    font-size: 0.9em;
+}
+
+.text button{
+    display: block;
+    text-align: left;
+}
+
+.text p{
+    display: block;
+}
+/* Foto dos carros */
+#carro{
+    width: 225px;
+    height: 120px;
+    margin: 2%;
+    border-radius: 10px;
+    margin-top: 4%;
+}
+
+
+h2{
+    padding: 0;
+    color: white;
+}
+span{
+    color: #febe01;
+    font-weight: bold;
+}
+
+button{
+    border: none;
+    background-color: #febe01;
+    color: #332200;
+    font-weight: bold;
+    border-radius: 4px;
+    font-size: 1em;
+    padding: 8%;
+    cursor: pointer;
+
+}
+
+.logo img{
+    border-radius: 50%;
+    width: 150px;
+}
